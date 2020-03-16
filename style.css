@@ -1,0 +1,35 @@
+.shop {
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    flex-basis: 15%;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.pageHeader{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+body {
+    background-color: beige;
+
+}
+.shop:hover {
+    background-color: white;
+  }
+  .shop{
+      border-radius: 25%;
+  }
